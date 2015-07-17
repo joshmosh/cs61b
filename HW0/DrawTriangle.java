@@ -9,12 +9,12 @@ public class DrawTriangle {
       while (col <= row) {
         System.out.print('*');
 
-        col++;
+        col+= 1;
       }
 
       System.out.println();
 
-      row++;
+      row+= 1;
     }
   }
 

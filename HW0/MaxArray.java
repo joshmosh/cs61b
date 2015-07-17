@@ -8,7 +8,7 @@ public class MaxArray {
         max = m[i];
       }
 
-      i++;
+      i+= 1;
     }
 
     return max;
